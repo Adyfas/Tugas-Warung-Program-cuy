@@ -1,0 +1,63 @@
+<!-- 
+***Tugas
+
+Yow! Tugas lu adalah bikin situs web bisa ngacak kata yang ada di variabel 'kata', trus tebakannya di situs web itu bakal nyambung sama kata yang diacak itu atau yang di input kan user bisa?
+
+tebtulah masa gini aja gak bisa 😁 boleh kasih style bang?? tentu boleh dong sambil latih css kamu ok. Gampang banget kan!! 
+
+
+
+***selesai tugasan
+
+kalau udah selesai tugas ini silakan foto kirim ke nomor admin warung program yaa
+
+atau lebih bagus nya kamu bisa bikin vidio atau foto, terus kamu upload ke Instagram lalu tag Instagram Warung Program yaa link Instagram warung
+
+https://www.instagram.com/warung.program?igsh=YnJ1eDN3Mm11amc1
+
+
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tebak Text</title>
+
+</head>
+<body>
+<h1>Welcome to the Guess Text Game, Lampetttttttt</h1>
+
+<p id="instructions">Masukin tebakan lo di bawah ini:</p>
+
+<input type="text" id="guessInput">
+
+<button onclick="cekTebakan()">Cek Tebakan</button
+>
+<p id="hasil"></p>
+
+<script>
+
+//bagian variabel nya
+const kata = ["apel", "jeruk", "pisang", "anggur", "mangga"];
+
+const acak = Math.floor(Math.random());
+
+const kaka = kata[acak];
+
+//ini function nya
+function cekTebakan() {
+    const guess = document.getElementById("GuessInpuT").value;
+    const hasil = document.getElementById("Hasil");
+
+    if (hasil === acak) {
+        Hasil.textContent = "Yess! Lo tebak bener coy!";
+    } else {
+        Hasl.textContent = "Waduh! Tebakan lo salah. Coba lagi lah!";
+    }
+}
+</script>
+</body>
+</html>
