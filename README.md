@@ -6,5 +6,8 @@ Di saluran tertulis tugasnya hari ini Bab 1 maka kamu klik folder di atas yang b
 
 # Gimana siap?
 
-
+# Tugas selesai
+Jadi gini bro ketika kamu selesai tugas nya dan kirim ke admin atau tag Instagram WP dengan bukti file/foto/vidio, dan tugasnya paling bagus yaa maka hasilnya akan di tampilkan di sini ok 👍😁
+yang jelek gimnana bang?😑
+ya nasib 😂😁😂😂🤣
 
